@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.2",
     "canvas-confetti": "^1.9.2",
-    "contracts": "file:../coin/build/contracts",
+    "contracts": "file:./coin/build/contracts",
     "dotenv": "^16.3.1",
     "ethers": "^6.9.0",
     "react": "^18.2.0",
