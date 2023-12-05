@@ -1,6 +1,6 @@
 import Web3 from 'web3'
-import AshokaCoin_Build from 'contracts/AshokaCoin.json'
-import AshokaCoinSale_Build from 'contracts/AshokaCoinSale.json'
+import AshokaCoin_Build from './AshokaCoin.json'
+import AshokaCoinSale_Build from './AshokaCoinSale.json'
 import { ethers } from 'ethers'
 
 let selectedAccount
