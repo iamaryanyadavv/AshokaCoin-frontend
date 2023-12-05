@@ -1,0 +1,17 @@
+.nextui-c-yrlUe-kJGdUE-activeColor-default{
+    --nextui--navbarItemActiveColor: #ff9f56 !important;
+    --nextui--navbarItemHighlightBackgroundColor: rgba(190, 49, 68, 0.25) !important;
+    --nextui--navbarItemHighlightTextColor: #BE3144 !important;
+}
+
+.nextui-c-egxOLa{
+    background: #22092C !important;
+}
+
+:root{
+    --nextui--navbarTextColor: #BE3144 !important
+}
+
+.nextui-c-yrlUe{
+    --nextui--navbarItemFontWeight: var(--nextui-fontWeights-semibold) !important;
+}

@@ -1,0 +1,12 @@
+/* .nextui-c-iWjDFM-kLlQSF-cv{
+    background: #000 !important;
+    color: #fff !important;
+} */
+
+.ex-box{
+    backdrop-filter: blur(16px);
+}
+
+::placeholder{
+    color: white;
+}
