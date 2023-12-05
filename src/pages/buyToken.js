@@ -75,6 +75,7 @@ export default function BuyToken(props) {
                 theme: "dark",
             });
         } finally {
+            setShowFaucetModal(false)
             setTx_processing(false);
             setNo_Of_Tokens('0')
             props.onActionComplete()
