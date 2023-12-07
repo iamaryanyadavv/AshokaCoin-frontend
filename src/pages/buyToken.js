@@ -198,7 +198,7 @@ export default function BuyToken(props) {
                             fontWeight: '$semibold',
                             fontSize: '$xl',
                             color: '#F05941',
-                            '@smMax':{
+                            '@smMax': {
                                 width: '300px',
                                 whiteSpace: 'nowrap',
                                 textOverflow: 'ellipsis',
@@ -207,7 +207,7 @@ export default function BuyToken(props) {
                         }}>
                             {selectedAccount}
                         </Text>
-                        {!Number.isInteger(Math.floor(userBalanceETH*1000)) || Math.floor(userBalanceETH*1000)==0 ?
+                        {!Number.isInteger(Math.floor(userBalanceETH * 1000)) || Math.floor(userBalanceETH * 1000) == 0 ?
                             <Button flat color={'error'} css={{
                                 background: 'rgba(240, 89, 65, 0.25)',
                                 color: 'rgba(240, 89, 65, 1)',
@@ -317,7 +317,7 @@ export default function BuyToken(props) {
 
                                     </>
                                 }
-                                {faucet_tx_processing && 
+                                {faucet_tx_processing &&
                                     <Button flat color={'error'} css={{
                                         marginTop: '12px',
                                         background: 'rgba(240, 89, 65, 0.1)',
@@ -699,11 +699,21 @@ export default function BuyToken(props) {
                             }}>
                                 <Collapse.Group splitted>
                                     <Collapse title="How do I buy ASHONK?">
-                                        <Text>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                            nisi ut aliquip ex ea commodo consequat.
+                                        <Text css={{
+                                            padding: '8px 0px'
+                                        }}>
+                                            You can swap GoerliETH for some ASHONK from our website. Now, what is GoerliETH?
+                                        </Text>
+                                        <Text css={{
+                                            padding: '8px 0px'
+                                        }}>
+                                            We're sure you've heard of ethereum (ETH). Well, GoerliETH is just ethereum on the Goerli Test Network.
+                                            Since we have deployed AshokaCoin on Goerli Test Network, you need to be on the same network to swap for some ASHONK.
+                                        </Text>
+                                        <Text css={{
+                                            padding: '8px 0px'
+                                        }}>
+                                            Currently we're not supplying partial coins, so the minimum amount of GoerliETH you need to exchange for 1 ASHONK is 0.001 (and of course don't froget the gas price!).
                                         </Text>
                                     </Collapse>
                                 </Collapse.Group>
